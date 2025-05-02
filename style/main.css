@@ -1,0 +1,10 @@
+/* Base */
+@import './Base/Variables.css';
+@import './Base/base.css';
+@import './layout/header.css';
+@import './Sections/hero.css';
+@import './Sections/contact.css';
+@import './layout/footer.css';
+@import './Sections/about.css';
+@import './Sections/product.css';
+@import './utilities/responsive.css'

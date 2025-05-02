@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Next Health - Solução inovadora para gestão de escalas de enfermagem em hospitais e unidades de saúde">
+    <title>Next Health - Gestão Inteligente de Escalas de Enfermagem</title>
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="shortcut icon" href="../assets/favicon-96x96.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="cabecalho container">
+            <nav>
+                <div class="div-logo">
+                    <img src="../assets/Nexth.png" alt="logo da Next Health" class="logo" width="150" height="50">
+                </div>
+                <button class="menu-mobile" aria-label="Abrir menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#produto" class="nav-link">Produto</a></li>
+                    <li><a href="#sobre-nos" class="nav-link">Sobre Nós</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                    <li><a href="#contato" class="nav-button">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1>Next Health</h1>
+                    <h2>Junte-se a nós para revolucionar a saúde com soluções de gestão inovadora!</h2>
+                    <p class="hero-description">Gestão de Escala Inteligente: soluções que analisam automaticamente as demandas da unidade e ajustam as escalas de trabalho conforme a carga assistencial.</p>
+                    <div class="hero-buttons">
+                        <a class="hero-button primary" href="#contato">Entre em Contato</a>
+                        <a class="hero-button secondary" href="#produto">Conhecer mais</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="../assets/logo-com.png" alt="Logo da Next Health" width="500" height="400" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Produto -->
+        <section id="produto" class="section-product">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Principais Funcionalidades</h2>
+                    <p class="section-subtitle">Tudo que você precisa para uma gestão eficiente de escalas</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Cobertura de Ausências</h3>
+                        <p>Comunicação de ausências imprevistas, garantindo substituições rápidas e adequadas.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>Dashboard Personalizado</h3>
+                        <p>Visualize informações em tempo real sobre disponibilidade, turnos e necessidades de pessoal.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">⚖️</div>
+                        <h3>Compliance com Normas</h3>
+                        <p>Alinhamento com as diretrizes da legislação trabalhista e recomendações de dimensionamento.</p>
+                    </div>
+                </div>
+                
+                <div class="benefits-section">
+                    <h2>Por que escolher a NextHealth?</h2>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <span class="benefit-value">20%</span>
+                            <p>Redução no tempo de gestão de escalas</p>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-value">15%</span>
+                            <p>Aumento na satisfação das equipes</p>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-value">100%</span>
+                            <p>Cobertura para ausências não previstas</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="clients-section">
+                    <h3>Para quem é a NextHealth?</h3>
+                    <div class="clients-grid">
+                        <div class="client-card">
+                            <img src="../assets/hospital-icon.png" alt="Hospitais" width="60" height="60" loading="lazy">
+                            <p>Hospitais Públicos e Privados</p>
+                        </div>
+                        <div class="client-card">
+                            <img src="../assets/clinic-icon.png" alt="Clínicas" width="60" height="60" loading="lazy">
+                            <p>Unidades Básicas de Saúde e Clínicas</p>
+                        </div>
+                        <div class="client-card">
+                            <img src="../assets/manager-icon.png" alt="Gestores" width="60" height="60" loading="lazy">
+                            <p>Gestores de Saúde</p>
+                        </div>
+                        <div class="client-card">
+                            <img src="../assets/hr-icon.png" alt="RH" width="60" height="60" loading="lazy">
+                            <p>Profissionais de RH no Setor da Saúde</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Nós -->
+        <section id="sobre-nos" class="section-about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="section-header">
+                            <h2>Sobre Nós</h2>
+                            <p class="section-subtitle">Conheça nossa missão e equipe</p>
+                        </div>
+                        <p>
+                            O Next Health foi desenvolvido para solucionar um problema crítico na gestão de escalas dos profissionais de enfermagem,
+                            especialmente em hospitais e unidades de saúde em Sergipe. A má organização das escalas pode gerar uma série de dificuldades
+                            que impactam diretamente a qualidade do atendimento ao paciente e a saúde do trabalhador.
+                        </p>
+                        <p>Somos uma equipe multiprofissional composta tanto por profissionais
+                            da Tecnologia da Informação e Comunicação quanto por profissionais
+                            da saúde e gestão.</p>
+                    </div>
+                    
+                    <div class="partners-section">
+                        <h3>Parcerias Estratégicas</h3>
+                        <div class="partners-grid">
+                            <img src="../assets/logoUFS.png" alt="Universidade Federal de Sergipe" width="120" height="80" loading="lazy">
+                            <img src="../assets/Hospital-universitario.jpg" alt="Hospital Universitário" width="120" height="80" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Carrossel de Imagens -->
+                <div class="team-section">
+                    <h2>Nossa Equipe</h2>
+                    <div class="carrossel">
+                        <button class="carrossel-button prev" aria-label="Slide anterior">
+                            &#10094;
+                        </button>
+                        
+                        <div class="carrossel-container">
+                            <div class="slide">
+                                <div class="profile">
+                                    <img src="../assets/Joao.jpg" alt="João Rocha" width="150" height="150" loading="lazy">
+                                    <div class="info">
+                                        <h3>João Rocha</h3>
+                                        <p>Programador fullstack</p>
+                         
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="profile">
+                                    <img src="../assets/Rafael.jpg" alt="Rafael Santos" width="150" height="150" loading="lazy">
+                                    <div class="info">
+                                        <h3>Rafael Santos</h3>
+                                        <p>Programador fullstack</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="profile">
+                                    <img src="../assets/Paula.jpg" alt="Paula Fujishima" width="150" height="150" loading="lazy">
+                                    <div class="info">
+                                        <h3>Paula Fujishima</h3>
+                                        <p>CEO e Especialista da Saúde</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="carrossel-button next" aria-label="Próximo slide">
+                            &#10095;
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+<section id="contato" class="section-contact">
+    <div class="container">
+        <div class="section-header">
+            <h2>Entre em Contato</h2>
+            <p class="section-subtitle">Tire suas dúvidas ou solicite uma demonstração</p>
+        </div>
+        
+        <div class="contact-grid">
+            <form action="#" method="post" class="form-contato" id="contactForm">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(79) 99999-9999">
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+            </form>
+            
+            <div class="contact-info">
+                <h3>Informações de Contato</h3>
+                <div class="contact-item">
+                    <img src="../assets/email-icon.png" alt="Email" width="24" height="24">
+                    <a href="mailto:nexthealth.startup@gmail.com">nexthealth.startup@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <img src="../assets/phone-icon.png" alt="Telefone" width="24" height="24">
+                    <a href="tel:+5579999096001">(79) 99909-6001</a>
+                </div>
+                <div class="contact-item">
+                    <img src="../assets/instagram-icon.png" alt="Instagram" width="24" height="24">
+                    <a href="https://instagram.com/nexthealth.startup" target="_blank">@nexthealth.startup</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        
+        <div class="whatsapp-float">
+            <a href="https://wa.me/5579999096001" target="_blank" aria-label="Contato pelo WhatsApp">
+                <img src="../assets/whatsapp.png" alt="WhatsApp" width="60" height="60">
+            </a>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <p>Revolucionando a gestão de saúde</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#produto">Produto</a></li>
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p>📧 nexthealth.startup@gmail.com</p>
+                    <p>📞 (79) 99909-6001</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 Next Health. Todos os direitos reservados.</p>
+                <a href="#">Política de Privacidade</a>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><img src="./../assets/instagram.png" alt="Instagram" width="24" height="24"></a>
+                    <a href="#" aria-label="Email"><img src="./../assets/e-mail.png" alt="Email" width="24" height="24"></a>
+                    <a href="#" aria-label="whatsapp"><img src="../assets/whatsapp(1).png" alt="WhatsApp" width="24" height="24"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script/carrosel.js"></script>
+    <script>
+        // Menu mobile
+        const menuBtn = document.querySelector('.menu-mobile');
+        const navList = document.querySelector('.nav-list');
+        
+        menuBtn.addEventListener('click', () => {
+            const isExpanded = menuBtn.getAttribute('aria-expanded') === 'true';
+            menuBtn.setAttribute('aria-expanded', !isExpanded);
+            navList.classList.toggle('active');
+            menuBtn.classList.toggle('open');
+        });
+        
+        // Fechar menu ao clicar em um link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navList.classList.remove('active');
+                menuBtn.setAttribute('aria-expanded', 'false');
+                menuBtn.classList.remove('open');
+            });
+        });
+        
+        // Animação ao rolar
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    (function() {
+        emailjs.init(
+               "qhv1UZt1RJODs01Hy"
+            );
+    })();
+
+    // Máscara para telefone
+    document.getElementById('telefone').addEventListener('input', function(e) {
+        let value = e.target.value.replace(/\D/g, '');
+        if (value.length > 11) value = value.substring(0, 11);
+        
+        if (value.length > 0) {
+            value = value.replace(/^(\d{2})(\d)/g, '($1) $2');
+            if (value.length > 10) {
+                value = value.replace(/(\d)(\d{4})$/, '$1-$2');
+            } else {
+                value = value.replace(/(\d)(\d{3})$/, '$1-$2');
+            }
+        }
+        
+        e.target.value = value;
+    });
+
+    // Envio do formulário
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        // Validação básica
+        const email = document.getElementById('email').value;
+        if (!email.includes('@') || !email.includes('.')) {
+            Swal.fire({
+                icon: 'error',
+                title: 'E-mail inválido',
+                text: 'Por favor, insira um endereço de e-mail válido.',
+                confirmButtonColor: '#e74a3b'
+            });
+            return;
+        }
+
+        // Envia o formulário
+        emailjs.sendForm('service_2ajs1kt', 'template_q9fa5m9', this)
+            .then(function() {
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Mensagem enviada!',
+                    text: 'Entraremos em contato em breve.',
+                    confirmButtonColor: '#4e73df',
+                    timer: 3000
+                });
+                document.getElementById('contactForm').reset();
+            }, function(error) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Erro ao enviar',
+                    text: 'Ocorreu um erro. Por favor, tente novamente mais tarde ou entre em contato por outro meio.',
+                    confirmButtonColor: '#e74a3b'
+                });
+                console.error('Erro EmailJS:', error);
+            });
+    });
+</script>
+</body>
+</html>
